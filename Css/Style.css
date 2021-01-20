@@ -1,0 +1,379 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    background-color: #2C3E50;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+}
+
+/*Main menu*/
+.nav-item a{
+    color: #ffffff !important;
+}
+
+.nav-item a:hover{
+    color: 	#e2001a !important;
+}
+
+
+ul{
+    margin: 0;
+}
+
+nav li{
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 70px;
+    padding-right: 30px;
+}
+
+
+/*Hedear Background Image with Title*/
+.headerBackground{
+    background-image: url(http://cdn26.us1.fansshare.com/photo/cinemaparadiso/nuovo-cinema-paradiso-140608593.jpg);
+    background-size: cover;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    
+}
+
+.bigTitle{
+    color: #ffffff;
+    margin-left: 57px;
+    margin-top: 150px;
+}
+
+#filmFestivalTitle{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.text{
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+.date{
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.ticketButton a{
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #e2001a;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+/*Two photos whit fade hover text about local news*/
+.bostonImage {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .mycontainer:hover .bostonImage {
+    opacity: 0.6;
+  }
+  
+  .mycontainer:hover .middle {
+    opacity: 1;
+  }
+  
+  .mytext {
+    background-color: #006400;
+    color: white;
+    font-size: 24px;
+    padding: 16px 32px;
+  }
+
+
+/*Carousel*/
+#demo{
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+
+.carousel-inner img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.carousel-caption-lionking{
+    text-align: left;
+}
+
+.carousel-caption-separation{
+    text-align: left;
+}
+.carouseel-caption h1{
+    font-weight: bold;
+}
+
+.carousel-caption-favourite{
+    text-align: left;
+}
+
+a{
+    text-decoration: none;
+    outline: none;
+}
+
+/*Newsletter*/
+.gradient{
+    background-color: rgb(234, 236, 238);
+    background-image: radial-gradient(#F2F4F4,#EBEDEF,#ABB2B9);
+}
+
+.newsletterContainer{
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 300px;
+    text-align: center;
+}
+
+.newsletterContainer h1{
+    text-align: center;
+    color: #e2001a;
+    text-transform: uppercase;
+    font-size: 3.5em;
+    font-weight: 400;
+}
+
+.newsletterContainer h3{
+    color: #4b4b4d;
+    font-weight: 100;
+}
+
+.emailBox{
+    width: 350px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+}
+
+.partnerContainer{
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 300px;
+    
+    text-align: center;
+}
+
+.partnerText{
+    color: #4b4b4d;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.subscribeBox{
+    width: 100px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/*Footer*/
+.footerContent{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+    background-color: #272727;
+    padding: 20px 0px;
+}
+
+.footerSocialIcons{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.footerSocialIcons ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.footerSocialIcons ul li{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    border-radius: 100%;
+}
+
+.footerSocialIcons ul li a{
+    color: #ffffff;
+    font-size: 20px;
+    display: block;
+}
+
+.footerSocialIcons ul li a i{
+    line-height: 50px;
+}
+
+.footerSocialIcons ul li:hover{
+    background: #4b4b4d;
+}
+
+.fotterMenuOne{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.fotterMenuOne ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.fotterMenuOne ul li{
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+.fotterMenuOne ul li a{
+    font-family: arial;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.fotterMenuOne ul li a:hover{
+    color: #4b4b4d;
+}
+
+.fotterMenuTwo{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.fotterMenuTwo ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.fotterMenuTwo ul li{
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+.fotterMenuTwo ul li a{
+    font-family: arial;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.fotterMenuTwo ul li a:hover{
+    color: #4b4b4d;
+}
+
+.footerBottom{
+    width: 100%;
+    height: 35px;
+    margin: auto;
+    background: #4b4b4d;
+    padding: 5px;
+}
+
+.footerBottom p{
+    font-family: arial;
+    font-size: 10px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.footerBottom p a{
+    color: #ffffff; 
+}
+
+.footerBottom p a:hover{
+    color: #272727;
+}
+
+/*ticket page*/
+.formBackground{
+    background-color: #EBEDEF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/*Contact page*/
+.contactInfo{
+    padding: 20px 20px;
+    border-radius: 3%;
+    height: 450px;
+    border: #585858;
+    border-radius: 2%;
+    border: solid;
+}
+
+.contactForm{
+    border: #585858;
+    border-radius: 2%;
+    border: solid;
+    padding: 50px 20px;
+    height: 450px;
+}

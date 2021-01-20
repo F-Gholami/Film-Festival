@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8"> 
+    <title>Boston Film Festival</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Racing+Sans+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Baloo&display=swap" rel="stylesheet">
+    <link href="Css/Style.css" rel="stylesheet">
+    <link href="Css/Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="images/Logo/favicon.png">
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
+    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </head>
+  
+  <body>
+
+    <!--Main menu-->
+    <header class="headerMain">
+
+      <div class="content">
+
+        <nav class="navbar navbar-dark navbar-expand-lg fixed" style="background-color: black; text-transform: uppercase;">
+            <a class="navbar-brand" href="index.html">
+              <img src="images/Logo/logo.png" style="height: 60px;">
+              </a>
+    
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+           <div class="collapse navbar-collapse" id="collapsibleNavbar">
+               <ul class="navbar-nav ml-auto">
+                   <Li class="nav-item">
+                       <a class="nav-link" href="index.html">Home</a>
+                   </Li>
+                   <Li class="nav-item">
+                       <a class="nav-link" href="Movies.html">Movies</a>
+                   </Li>
+                   <Li class="nav-item dropdown">
+                       <a class="nav-link dropdown-toggle" href="#" id="navbarDrop" data-toggle="dropdown">News</a>
+                       <div class="dropdown-menu" style="background-color: black;" >
+                        <a class="dropdown-item" href="https://www.boston.com/?refresh=true">Local Boston News</a>
+                        <a class="dropdown-item" href="https://www.boston.gov/parks/public-garden">Boston Public Garden</a>
+                       </div>
+                   </Li>
+                   <Li class="nav-item">
+                       <a class="nav-link" href="contact.html">Contact</a>
+                   </Li>
+                   <Li class="nav-item">
+                       <a class="nav-link" href="ticketPreregisteration.html">Pre-Registeration</a>
+                   </Li>
+               </ul>
+           </div>
+        </nav>
+
+      </div>
+
+    </header>
+
+    <!--Hedear Background Image with Title-->
+    <div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-12">
+      <div class="headerBackground">
+        <div class="overlay">
+          <div class="content">
+            <div class="bigTitle">
+              <br>
+              <h1 id="filmFestivalTitle" style="font-family: 'Baloo', cursive; font-size: 70px">Outdoor Film festival</h1>
+              <br>
+              <div>
+                <p class="text">
+                  Whatch it outside - Boston Edition 
+                </p>
+                <p></p>
+                <p class="date">
+                  August 5th-8th
+                </p>
+              </div>
+
+              <br><br><br>
+
+              <div class="ticketButton">
+                <a class="btn" href="ticketPreregisteration.html">Get your tickets</a> 
+              </div>
+              
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+ <br><br><br><br><br><br>
+ 
+ <!--Two photos whit fade hover text about local news-->
+ <div class="row">
+
+    <div class="col-sm-12 col-md-12 col-lg-6">
+        <div class="mycontainer">
+               <img class="gardenImage bostonImage" style=" height: 380px; padding: 5px;" src="Images/Boston/Boston-Slider.jpg" alt="Boston Public Garden">
+               <div class="middle">
+                 <div>
+                   <div class="mytext">
+                     <a href="https://www.boston.com/?refresh=true" style="color: white;">Boston <br> Local News</a>
+                   </div>
+                 </div>
+               </div>
+        </div>
+     </div>
+
+   <div class="col-sm-12 col-md-12 col-lg-6">
+     <div class="mycontainer">
+            <img class="gardenImage bostonImage" style="height: 380px; padding: 5px;" src="Images/Boston/public garden.jpg" alt="Boston Public Garden">
+            <div class="middle">
+              <div>
+                <div class="mytext">
+                  <a href="https://www.boston.gov/parks/public-garden" style="color: white;">Boston <br> Public Garden</a>
+                </div>
+              </div>
+            </div>
+     </div>
+  </div>
+   
+</div>
+
+<br><br><br><br><br><br>
+
+    <!--Carousel-->
+      <section>
+
+        <div class="container">
+
+          <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+
+          <div id="demo" class="carousel slide" data-ride="carousel" data-interval="3500">
+
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+            </ol>
+
+            <!-- The SlideShow -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="films/carousel/lion king centered.jpg" alt="lion king"  width=100%; height="600" class="img-responsive">
+                <div class="carousel-caption">
+                  <div class="carousel-caption-lionking">
+                  <h1 style="font-family: 'Racing Sans One', cursive; font-size: 60px;">Come and Enjoy</h1>
+                    <h1 style="font-size: 30px; font-weight: bold">Family and Children</h1>
+                    <h1 style="font-size: 30px; font-weight: bold">Lion King</h1>
+                    <h1 style="font-size: 30px; font-weight: bold">Friday 7th August at 18:00</h1>
+                  </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <img src="films/carousel/separation centered.jpg" alt="A Separation"  width=100%; height="600" class="img-responsive">
+                <div class="carousel-caption">
+                  <div class="carousel-caption-separation">
+                    <h1 style="font-family: 'Racing Sans One', cursive; font-size: 60px; ">A Taste Of East</h1>
+                    <h1 style=" font-size: 30px; font-weight: bold">Oscar wining movie</h1>
+                    <h1 style=" font-size: 30px; font-weight: bold">A Separation</h1>
+                    <h1 style=" font-size: 30px; font-weight: bold">Friday 7th August at 22:00</h1>
+                  </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <img src="films/carousel/favourite centered.jpg" alt="The Favourite"  width=100%; height="600" class="img-responsive">
+                <div class="carousel-caption">
+                  <div class="carousel-caption-favourite">
+                  <h1 style="font-family: 'Racing Sans One', cursive; font-size: 60px;">Great Finale</h1>
+                    <h1 style=" font-size: 30px; font-weight: bold">The Favourite</h1>
+                    <h1 style=" font-size: 30px; font-weight: bold">By Yorgos Lanthimos</h1>
+                    <h1 style=" font-size: 30px; font-weight: bold">Saturday 8th August at 22:00</h1>
+                  </div>
+                  </div>
+              </div>
+            </div>
+
+            <!-- Left and Right Controls-->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev" role="button">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previouse</span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next" role="button">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          </div>
+        </div>
+        </div>
+
+      </section>
+
+      <br><br><br><br><br>
+
+      <!--A button for pre-registeration-->
+      <div class="container justify-content-center">
+        <div class="row">
+          <div class="offset-sm-4 col-sm-4 offset-md-4 col-md-4 offset-lg-4 col-lg-4">
+            <div class="btn" width="100%" style="background-color: #ffaa00; padding: 12px 17px; margin-left: 55px;">
+              <a href="ticketPreregisteration.html" style="color: black;">
+                <h3>Pre-Registeration</h3>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br><br><br><br><br>
+
+      <!--Newsletter-->
+        <div class="gradient">
+          <div class="newsletterContainer">
+
+            <div class="newsletterText">
+              <div class="row">
+                <div class="col-sm-12 col-lg-12">
+                  <h1>Newsletter</h1>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12 col-lg-12">
+                  <h3>
+                    Subscribe now to our newsletter and receive news about the B.F.F. and more events about the city and the venue
+                  </h3>
+                </div>
+              </div>
+            </div>
+
+            <br><br>
+
+            <div class="newsletterForm">
+                <form action="/action_page.php">
+                  <input class="emailBox" type="text" placeholder="E-mail address">
+                  <input class="subscribeBox" type="submit" value="Subscribe">
+                </form>
+              </div>
+            </div>
+
+            <br>
+  
+          <div class="container text-center">
+            <div class="partnerText">
+              <h3>we would like to thank our partners</h3>
+            </div>
+              <br>
+              <div class="row">
+                  <div class="offset-sm-4 col-sm-2 offset-md-4 col-md-2 offset-lg-4 col-lg-2">
+                    <a href="https://www.boston.gov/">
+                      <img src="Images/Partners/Small dimention of images/city hall.png" style="padding: 5px;" class="img-responsive" >
+                    </a>
+                  </div>
+                  <div class="col-sm-2 col-md-2 col-lg-2">
+                    <a href="https://www.boston.gov/parks/public-garden">
+                      <img src="Images/Partners/Small dimention of images/public garden.png" style="margin-left: 10px; padding: 5px;" class="img-responsive"  >
+                    </a>
+                  </div>
+                </div>
+                <br>
+              <div class="row">
+
+                  <div class="offset-sm-4 col-sm-2 offset-lg-4 col-lg-2">
+                    <a href="https://savoyboston.co.uk/SavoyBoston.dll/Home">
+                      <img src="Images/Partners/Small dimention of images/cinema.png" style="padding: 5px;" class="img-responsive" >
+                    </a>
+                  </div>
+                  <div class="col-sm-2 col-lg-2">
+                    <a href="https://www.boston.gov/">
+                      <img src="Images/Partners/Small dimention of images/city of boston.png" style="padding: 5px;" class="img-responsive" >
+                    </a>
+                  </div>
+                </div>
+                <br><br>      
+              </div>
+              
+          </div>
+
+    <!--Footer-->
+    <footer>
+      <div class="footerContent">
+
+        <div class="footerSocialIcons">
+          <ul>
+            <li><a href="https://www.facebook.com/" target="blank"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/" target="blank"> <i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.youtube.com/" target="blank"> <i class="fab fa-youtube"></i></a></li>
+            <li><a href="https://twitter.com" target="blank"> <i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://www.linkedin.com/" target="blank"> <i class="fab fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+
+        <div class="fotterMenuOne">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Movies.html">Movies</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="ticketPreregisteration.html">Pre-Registeration</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footerBottom">
+          <p>Copyright © 2019 - Created by <a href="https://github.com/F-Gholami">Fereshteh Gholami</a> - <a href="#">BOSTON FILM FESTIVAL</a></p>
+      </div>
+
+    </footer>
+
+  </body>
+</html>
